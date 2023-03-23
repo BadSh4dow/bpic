@@ -1,8 +1,9 @@
-
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Mukta', sans-serif;
 }
 .background{
-    background-color: #1f2670;
+    background: rgb(2,0,36);
+    background: linear-gradient(151deg, rgba(2,0,36,1) 0%, rgba(31,38,112,1) 37%, rgba(66,80,239,1) 100%);
 }

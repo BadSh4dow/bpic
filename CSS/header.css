@@ -6,8 +6,16 @@ header{
     color: white;
 }
 .imgLogo{
-    width: 70%;
+    width: 50%;
+    margin: 10%;
+    height: auto;
+    object-fit: contain;
 }
 h1{
     text-align: center;
+    margin: 0;
+}
+
+h3{
+    margin: 0;
 }
