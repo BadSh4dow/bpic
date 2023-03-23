@@ -1,4 +1,13 @@
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
 .imgLogo{
-    height: 10vh;
-    width: 10vw;
+    width: 70%;
+}
+h1{
+    text-align: center;
 }
