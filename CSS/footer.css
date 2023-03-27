@@ -1,4 +1,5 @@
 .footer{
+    display: flex;
     margin: 0;
     height: 10%;
     width: 100%;
@@ -11,3 +12,29 @@
     flex-direction: column;
     align-self: center;
 }
+.footerMedia{
+    display: flex;
+    flex-direction: row;
+}
+.footerMediaImg{
+    width: 5%;
+    height: 5%;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer{
+        margin: 0;
+        height: 10%;
+        width: 100%;
+        background: rgb(137,49,97);
+        background: linear-gradient(151deg, rgba(137,49,97,1) 0%, rgba(27,24,51,1) 100%);
+        color: white;
+    }
+    .anchorsFooter{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+    
+}
+

@@ -31,8 +31,6 @@ h2{
 
 .icon{
     width: 20%;
-    filter: invert(100%);
-    -webkit-filter: invert(100%);
     object-fit: contain;
 }
 .content{

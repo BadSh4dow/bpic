@@ -11,7 +11,8 @@ h3{
     align-items: center;
 }
 .imgPartners{
-    width: 55vw;
-    max-height: 70%;
+    width: 60vw;
+    max-height: 20vh;
+    object-fit: contain;
 
 }
