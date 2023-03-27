@@ -1,3 +1,7 @@
+ul{
+    list-style-type: none;
+    padding: 0;
+}
 .footer{
     display: flex;
     margin: 0;
@@ -6,6 +10,20 @@
     background: rgb(137,49,97);
     background: linear-gradient(151deg, rgba(137,49,97,1) 0%, rgba(27,24,51,1) 100%);
     color: white;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.footerTop{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footerUs{
+    margin-left: 5%;
+}
+hr{
+    width: 80%;
 }
 .anchorsFooter{
     display: flex;
@@ -15,13 +33,24 @@
 .footerMedia{
     display: flex;
     flex-direction: row;
+    height: 100%;
+    width: 60%;
+    justify-content: space-around;
 }
 .footerMediaImg{
-    width: 5%;
-    height: 5%;
+    justify-self: center;
+    width: 100%;
+    height: auto;
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
 }
 
-@media screen and (max-width: 1024px) {
+.prueba{
+    height: auto;
+    width: 12%;
+}
+
+@media screen and (min-width: 1024px) {
     .footer{
         margin: 0;
         height: 10%;
