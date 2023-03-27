@@ -1,0 +1,13 @@
+.footer{
+    margin: 0;
+    height: 10%;
+    width: 100%;
+    background: rgb(137,49,97);
+    background: linear-gradient(151deg, rgba(137,49,97,1) 0%, rgba(27,24,51,1) 100%);
+    color: white;
+}
+.anchorsFooter{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}

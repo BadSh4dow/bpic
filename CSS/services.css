@@ -1,3 +1,7 @@
+h2{
+    text-align: center;
+    font-size: xx-large;
+}
 .services{
     display: flex;
     flex-direction: column;
@@ -14,10 +18,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 100%;
-    height: 50vh;
     background: rgb(137,49,97);
     background: linear-gradient(151deg, rgba(137,49,97,1) 0%, rgba(27,24,51,1) 100%);
+    height: 35vh;
+    width: 90%;
 }
 
 .subtitle{
@@ -29,4 +33,44 @@
     width: 20%;
     filter: invert(100%);
     -webkit-filter: invert(100%);
+    object-fit: contain;
+}
+.content{
+    font-size: auto;
+}
+
+@media screen and (min-width: 1024px) {
+
+    h2{
+        text-align: center;
+        font-size: 50px;
+        margin: 1%;
+ 
+    }
+    
+    .services{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0% 5% 5% 5%;
+        gap: 10px;
+    }
+    .service{
+        padding: 1%;
+        color: white;
+        border-radius: 2em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: rgb(137,49,97);
+        background: linear-gradient(151deg, rgba(137,49,97,1) 0%, rgba(27,24,51,1) 100%);
+        height: 30vh;
+        width: 18%;
+    }
+    .content{
+        font-size: medium;
+        padding-top: 1.5em;
+    }
+    
 }

@@ -1,6 +1,5 @@
-
 button{
-    width: 10em;
+    width: 12em;
     margin: 5%;
     padding: 2%;
     border: 0;
@@ -8,4 +7,19 @@ button{
     color: white;
     border-radius: 1em;
     font-weight: bold;
+}
+@media screen and (min-width: 1024px) {
+    
+    button{
+        width: 30em;
+        height: auto;
+        border: 0;
+        background: rgb(137,49,97);
+        color: white;
+        border-radius: 1em;
+        font-weight: bold;
+        font-size: x-large;
+    }
+
+    
 }

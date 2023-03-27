@@ -1,0 +1,17 @@
+h3{
+    text-align: center;
+    font-size: xx-large;
+    margin: 1em;
+}
+.partners{
+    background-color:  #f5f7fa;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgPartners{
+    width: 55vw;
+    max-height: 70%;
+
+}
