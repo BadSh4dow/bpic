@@ -24,6 +24,14 @@ p{
 }
 header button{
     margin-top: 2em;
+    width: 12em;
+    margin: 5%;
+    padding: 2%;
+    border: 0;
+    background: rgb(137,49,97);
+    color: white;
+    border-radius: 1em;
+    font-weight: bold;
 }
 
 @media screen and (min-width: 1024px) {

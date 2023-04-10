@@ -1,13 +1,15 @@
 button{
-    width: 12em;
-    margin: 5%;
-    padding: 2%;
     border: 0;
     background: rgb(137,49,97);
     color: white;
     border-radius: 1em;
     font-weight: bold;
 }
+button[type="submit"]:hover {
+    background: rgb(137,49,97);
+    background: linear-gradient(151deg, rgba(137,49,97,1) 0%, rgba(27,24,51,1) 100%);
+  }
+
 @media screen and (min-width: 1024px) {
     
     button{
