@@ -4,10 +4,11 @@
 .containerContact{
     display: flex;
     flex-direction: row;
+    gap: 14em;
 }
-p{
+h2{
     text-align: center;
-    font-size: xx-large;
+    color:rgb(137,49,97);
 }
 .contact{
     display: flex;
@@ -48,10 +49,16 @@ p{
     font-weight: bold;
 }
 .logoContact{
-    width: 50%;
+    display: flex;
+    justify-content: center;
+    width: 25vw;
+    height: 25vw;
+    border-radius: 50%;
+    background: rgb(137,49,97);
+    background: linear-gradient(151deg, rgba(137,49,97,1) 0%, rgba(27,24,51,1) 100%);
 }
 img{
-    width: 60%;
+    width: 90%;
     margin: 10%;
     height: auto;
     object-fit: contain;
