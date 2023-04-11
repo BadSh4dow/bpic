@@ -37,7 +37,7 @@ h2{
     object-fit: contain;
 }
 .content{
-    font-size: auto;
+    font-size: small ;
 }
 
 @media screen and (min-width: 1024px) {
