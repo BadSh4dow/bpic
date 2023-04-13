@@ -3,7 +3,7 @@ var slides = document.getElementsByClassName("partnersImg")[0].getElementsByTagN
 var totalSlides = slides.length;
 
 // Funciones de navegación
-function showSlide(n) {
+function showSlide(n, side) {
   if (n < 1) {
     slideIndex = totalSlides;
   } else if (n > totalSlides) {
@@ -12,17 +12,19 @@ function showSlide(n) {
     slideIndex = n;
   }
   for (var i = 0; i < totalSlides; i++) {
-    slides[i].style.display = "none";
+    slides[i].classList.remove("show");
+    slides[i].classList.add("hidden");
   }
-  slides[slideIndex - 1].style.display = "block";
+  slides[slideIndex - 1].classList.add("show")
+  slides[slideIndex - 1].classList.remove("hidden")
 }
 
 function nextSlide() {
-  showSlide(slideIndex + 1);
+  showSlide(slideIndex + 1, 1);
 }
 
 function prevSlide() {
-  showSlide(slideIndex - 1);
+  showSlide(slideIndex - 1, 0);
 }
 
 // Eventos de click
