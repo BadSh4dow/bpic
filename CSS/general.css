@@ -9,8 +9,13 @@ body{
     background: linear-gradient(151deg, rgba(2,0,36,1) 0%, rgba(31,38,112,1) 37%, rgba(66,80,239,1) 100%);*/
     background: rgb(137,49,97);
     background: linear-gradient(151deg, rgba(137,49,97,1) 0%, rgba(27,24,51,1) 100%);
+    border-bottom-right-radius: 5vw;
+    border-bottom-left-radius: 5vw;
 }
 a{
     text-decoration: none;
     color: white;
+}
+textarea{
+    resize: none;
 }
