@@ -1,10 +1,20 @@
 button{
+    width: 30%;
+    height: auto;
     border: 0;
     background: rgb(137,49,97);
     color: white;
     border-radius: 1em;
     font-weight: bold;
+    font-size: x-large;
 }
+/*button{
+    border: 0;
+    background: rgb(137,49,97);
+    color: white;
+    border-radius: 1em;
+    font-weight: bold;
+}*/
 button[type="submit"]:hover {
     background: rgb(137,49,97);
     background: linear-gradient(151deg, rgba(137,49,97,1) 0%, rgba(27,24,51,1) 100%);
@@ -12,7 +22,7 @@ button[type="submit"]:hover {
 
 @media screen and (min-width: 1024px) {
     
-    button{
+   /* button{
         width: 30em;
         height: auto;
         border: 0;
@@ -21,7 +31,7 @@ button[type="submit"]:hover {
         border-radius: 1em;
         font-weight: bold;
         font-size: x-large;
-    }
+    }*/
 
     
 }

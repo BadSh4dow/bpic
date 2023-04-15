@@ -29,7 +29,7 @@
             <img class="imgLogo" src="../IMG/bpicMainLogo2.png" alt="logo">
             <h1>Servicios digitales</h1>
             <p>Potenciamos el desarrollo de tu negocio en internet</p>
-            <button type="button">CALL TO ACTION</button>
+            <!--<button type="button"></button>-->
          </header>
     </div>
     <main>
@@ -77,44 +77,50 @@
                     <p class="subtitle">Desarrollo de páginas web</p>
                     <p class="content">Desarrollamos un sitio web a medida de tus necesidades, totalmente personalizado, para simplificar tu proceso de ventas, profesionalizar tu negocio y aumentar tus ingresos mensuales.</p>
                 </div>
+                <div class="service">
+                    <img class="icon" src="../IMG/web.png" alt="">
+                    <p class="subtitle">Desarrollo de páginas web</p>
+                    <p class="content">Desarrollamos un sitio web a medida de tus necesidades, totalmente personalizado, para simplificar tu proceso de ventas, profesionalizar tu negocio y aumentar tus ingresos mensuales.</p>
+                </div>
             </div>
         </div>
-
         <div class="nosotros">
-            <div class="text">
+            <div class="tituloNosotros">
                 <h2>¿Quiénes somos?</h2>
-                <p>Bpic nació de la idea de buscar un mejor futuro para los emprendedores, 
-                    de poner el aspecto humano sobre todas las cosas. De generar "Marcas con alma",
-                    aquellas que conectan con sus clientes y quedan fijadas en su mente.
-                    Esto en base a el uso de distintas herramientas digitales, adaptándonos a las nuevas tendencias que presenta el mercado,
-                    y atendiendo con compromiso cada una de las necesidades de nuestros clientes.</p>
             </div>
-            <div class="personasContainer">
-                <div class="persona">
-                    <img src="../IMG/Dario.jpg" alt="">
-                    <p class="tituloPersona">CEO</p>
-                    <p>Soy Darío Taroco, CEO de Bpic Agencia de Marketing, hace más de dos años que trabajo en marketing digital,
-                        además soy creador de contenido en Instagram, Facebook, LinkedIn y Youtube. 
-                        He trabajado con empresas, marcas y emprendedores alrededor de latino américa
-                        que buscaban convertirse líderes en su sector a través de estrategias de marketing digital.</p>
+                <div class="text">
+                    <p>Bpic nació de la idea de buscar un mejor futuro para los emprendedores, 
+                        de poner el aspecto humano sobre todas las cosas. De generar "Marcas con alma",
+                        aquellas que conectan con sus clientes y quedan fijadas en su mente.
+                        Esto en base a el uso de distintas herramientas digitales, adaptándonos a las nuevas tendencias que presenta el mercado,
+                        y atendiendo con compromiso cada una de las necesidades de nuestros clientes.</p>
                 </div>
-
-                <div class="persona">
-                    <img src="../IMG/Mati.jpg" alt="">
-                    <p class="tituloPersona">Encargado de Cuentas</p>
-                    <p>Mi nombre es Matias Santoro me encargo de asesorar clientes sobre como escalar su empresa con la utilizaciones
-                        de herramientas de Marketing Digital, como manejar un proceso de ventas eficiente y una atención al cliente de
-                        calidad buscando lazos a largo plazo y la fidelización de los mismos.</p>
+                <div class="personasContainer">
+                    <div class="persona">
+                        <img src="../IMG/Dario.jpg" alt="">
+                        <p class="tituloPersona">CEO</p>
+                        <p>Soy Darío Taroco, CEO de Bpic Agencia de Marketing, hace más de dos años que trabajo en marketing digital,
+                            además soy creador de contenido en Instagram, Facebook, LinkedIn y Youtube. 
+                            He trabajado con empresas, marcas y emprendedores alrededor de latino américa
+                            que buscaban convertirse líderes en su sector a través de estrategias de marketing digital.</p>
+                    </div>
+    
+                    <div class="persona">
+                        <img src="../IMG/Mati.jpg" alt="">
+                        <p class="tituloPersona">Encargado de Cuentas</p>
+                        <p>Mi nombre es Matias Santoro me encargo de asesorar clientes sobre como escalar su empresa con la utilizaciones
+                            de herramientas de Marketing Digital, como manejar un proceso de ventas eficiente y una atención al cliente de
+                            calidad buscando lazos a largo plazo y la fidelización de los mismos.</p>
+                    </div>
+    
+                    <div class="persona">
+                        <img src="../IMG/Juan.jpg" alt="">
+                        <p class="tituloPersona">ADS Manager</p>
+                        <p>Soy Juan, formó parte de esta gran agencia en dónde me encargo del sector de  anuncios, nos destacamos por la capacitación que nos permite estar siempre actualizados. 
+                            Los anuncios son el potenciador de tu producto o servicio para darte cuenta si tenés una buena estructura de negocio dentro del mercado ya que te ayudará a encontrar potenciales clientes diariamente.</p>
+                    </div>
                 </div>
-
-                <div class="persona">
-                    <img src="../IMG/Mati.jpg" alt="">
-                    <p class="tituloPersona">Encargado de Cuentas</p>
-                    <p>Mi nombre es Matias Santoro me encargo de asesorar clientes sobre como escalar su empresa con la utilizaciones
-                        de herramientas de Marketing Digital, como manejar un proceso de ventas eficiente y una atención al cliente de
-                        calidad buscando lazos a largo plazo y la fidelización de los mismos.</p>
-                </div>
-            </div>
+            <!--<button type="button">CALL TO ACTION</button>-->
         </div>
 
         <a name="contacto"></a>
@@ -122,7 +128,7 @@
             <h2>Contacto</h2>
             <div class="containerContact">
                 <section class="contact">
-                    <form>
+                    <form action="https://formsubmit.co/guidocabrera711@gmail.com" method="POST">
                       <label for="nombre">Nombre:</label>
                       <input type="text" id="nombre" name="nombre" required>
                   
@@ -133,13 +139,14 @@
                       <textarea id="mensaje" name="mensaje" required></textarea>
                   
                       <button class="" type="submit">Enviar</button>
+                      
+                      <input type="hidden" name="_next" value="http://127.0.0.1:5500/HTML/">
+                      <input type="hidden" name="_captcha" value="false">
                     </form>
                   </section>
                     <div class="logoContact">
                         <img src="../IMG/bpicMainLogo2.png" alt="logoContacto">
                     </div>
-                 
-
             </div>
         </div>
         
@@ -159,7 +166,7 @@
             </div>
             <hr>
             <div>
-                <p class="copyright">BPIC 2023. All rights reserved</p>
+                <p class="copyright">BPIC 2023 - All rights reserved.</p>
             </div>         
         </footer>
     </main>
