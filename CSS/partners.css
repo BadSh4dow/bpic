@@ -1,11 +1,13 @@
 .partners{
     background-color:  #f5f7fa;
-    width: 100%;
-    height: 40vh;
+    width: 70%;
+    height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 .navigateButton{
     width: 50%;
@@ -39,7 +41,7 @@ h3{
 .imgPartners{
     position: absolute;
     margin: 0;
-    height: 100%;
+    height: 85%;
     width: 80%;
     opacity: 0;
     z-index: 0;
@@ -60,8 +62,8 @@ h3{
 }
 
 .navigate button{
-    height: 3vw;
-    width: 3vw;
+    height: 2vw;
+    width: 2vw;
     display: flex;
     align-items: center;
     justify-content: center;

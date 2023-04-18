@@ -19,3 +19,14 @@ a{
 textarea{
     resize: none;
 }
+
+h2{
+    font-size: xx-large;
+    margin: 0;
+}
+
+p{
+    margin: 0;
+    text-align: center;
+    font-size: large;
+}

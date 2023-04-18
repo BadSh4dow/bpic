@@ -1,8 +1,10 @@
 .containerServices{
     height: auto;
-    background-color: #f5f7fa;;
+    background-color: #f5f7fa;
+    padding-bottom: 2%;
 }
-h2{
+.containerServices > h2{
+    margin: 0 0 3% 0;
     text-align: center;
     font-size: xx-large;
 }
@@ -41,7 +43,7 @@ h2{
     object-fit: contain;
 }
 .content{
-    font-size: small ;
+    font-size: 1vw ;
 }
 
 /*@media screen and (min-width: 1024px) {

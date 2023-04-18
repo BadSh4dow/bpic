@@ -7,22 +7,24 @@ header{
     padding-bottom: 2%;
 }
 .imgLogo{
-    width: 50%;
-    margin: 10%;
+    width: 28%;
+    margin: 3%;
     height: auto;
     object-fit: contain;
 }
+
 h1{
     text-align: center;
     margin: 0;
-    margin-bottom: 1em;
+    font-size: 6vw;
 }
 
-p{
+header p{
     margin: 0;
     text-align: center;
-    font-size: large;
+    font-size: 4vw;
 }
+
 header button{
     margin-top: 2em;
     width: 12em;
@@ -35,29 +37,6 @@ header button{
     font-weight: bold;
 }
 
-@media screen and (min-width: 1024px) {
-
-    header{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        color: white;
-    }
-    .imgLogo{
-        width: 28%;
-        margin: 3%;
-        height: auto;
-        object-fit: contain;
-    }
-    h1{
-        text-align: center;
-        margin: 0;
-        font-size: 80px;
-    }
-    header p{
-        margin: 0;
-        text-align: center;
-        font-size: 50px;
-    }
+@media (min-width: 768px) and (max-width: 1199px){
+    
 }

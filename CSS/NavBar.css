@@ -7,9 +7,28 @@
     align-items: center;
     color: white;
 }
-.link:hover{
-    border: 3px solid white;
-    font-weight: bold;
+
+.link{
+    display: inline-block;
+    position: relative;
+    font-size: .7em;
+}
+.link::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0px;
+    left: 0px;
+    background-color: white;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.2s ease-out;
+}
+
+.link:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 
 
