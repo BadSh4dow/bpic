@@ -1,5 +1,5 @@
 .partners{
-    background-color:  #f5f7fa;
+    background-color:  white;
     width: 70%;
     height: 30vh;
     display: flex;
@@ -51,7 +51,7 @@ h3{
     width: 80%;
     opacity: 0;
     z-index: 0;
-    transition: transform 0.5s ease;
+    transition: transform 1s ease;
     
 }
 .show{
