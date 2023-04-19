@@ -16,13 +16,13 @@ header{
 h1{
     text-align: center;
     margin: 0;
-    font-size: 6vw;
+    font-size: 4vw;
 }
 
 header p{
     margin: 0;
     text-align: center;
-    font-size: 4vw;
+    font-size: 2vw;
 }
 
 header button{
@@ -37,6 +37,16 @@ header button{
     font-weight: bold;
 }
 
-@media (min-width: 768px) and (max-width: 1199px){
-    
+@media (max-width: 767px){
+    .background{
+        height: 100vw;
+    }
+
+    header{
+        margin-top: 15%;
+    }
+
+    .imgLogo{
+        width: 50%;
+    }
 }
