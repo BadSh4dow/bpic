@@ -9,6 +9,12 @@
     padding-left: 15%;
     padding-right: 15%;
 }
+.clientesVertical{
+    display: none;
+}
+.clientesHorizontal{
+    display: none;
+}
 .navigateButton{
     width: 50%;
     height: 50%;
@@ -76,25 +82,43 @@ h3{
     margin: 0;
 }
 
-/*@media screen and (min-width: 1024px) {
-    h3{
-        text-align: center;
-        font-size: xx-large;
-        margin: 1em;
+@media (min-width: 768px) and (max-width: 1199px){
+    .hidePartners{
+        display: none;
+        opacity: 0;
+        z-index: 0;
     }
+
     .partners{
-        background-color:  #f5f7fa;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 20vh;
-    }
-    .imgPartners{
-        content: url('../IMG/clientes-prueba\ 1.png');
-        object-fit: cover;
-
+        height: 100%;
     }
 
-}*/
+    .clientesHorizontal{
+        display: block;
+        margin: 0 0 5% 0;
+        width: 130vw;
+    }
+}
+
+@media (max-width: 767px){
+    .partners{
+        height: 100%;
+    }
+
+    .hidePartners{
+        display: none;
+        opacity: 0;
+        z-index: 0;
+    }
+
+    .clientesVertical{
+        display: block;
+        height: 120vw;
+        margin: 0 0 10% 0;
+    }
+
+    .clientesHorizontal{
+        display: none;
+    }
+}
 
