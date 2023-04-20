@@ -78,3 +78,34 @@ img{
         width: 100%;
     }
 }
+@media (min-width: 768px) and (max-width: 1199px){
+    .containerContact{
+        display: flex;
+        flex-direction: row;
+        margin: 0 10%;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .contact{
+        display: flex;
+        justify-content: flex-start;
+        width: 70%;
+    }
+    .logoContact{
+        display: flex;
+        justify-content: center;
+        width: 30vw;
+        height: 30vw;
+        border-radius: 50%;
+        background: rgb(137,49,97);
+        background: linear-gradient(151deg, rgba(137,49,97,1) 0%, rgba(27,24,51,1) 100%);
+    }
+    img{
+        width: 90%;
+        margin: 10%;
+        height: auto;
+        object-fit: contain;
+    }
+
+
+}
