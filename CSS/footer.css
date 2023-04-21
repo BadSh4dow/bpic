@@ -18,9 +18,13 @@ ul{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 90%;
+    margin-top: 2%;
 }
 .footerUs{
-    margin-left: 5%;
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
 }
 hr{
     width: 80%;
@@ -34,7 +38,7 @@ hr{
     display: flex;
     flex-direction: row;
     height: 100%;
-    width: 60%;
+    width: 50%;
     justify-content: space-around;
 }
 .footerMediaImg{
@@ -47,69 +51,55 @@ hr{
 
 .prueba{
     height: auto;
-    width: 12%;
+    width: 5%;
 }
 
-.copyright{
-    font-size: 1.5vh;
-}
-
-@media screen and (min-width: 1024px) {
-    ul{
-        list-style-type: none;
-        padding: 0;
-    }
-    .footer{
+@media (min-width: 768px) and (max-width: 1199px){
+    .footerUs{
         display: flex;
-        margin: 0;
-        height: 10%;
-        width: 100%;
-        background: rgb(137,49,97);
-        background: linear-gradient(151deg, rgba(137,49,97,1) 0%, rgba(27,24,51,1) 100%);
-        color: white;
-        align-items: center;
-        justify-content: space-around;
-        flex-direction: column;
+        margin-left: 5%;
     }
+
+    .footerMedia{
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        width: 60%;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 767px){
     .footerTop{
         display: flex;
-        justify-content: space-around;
-        align-items: center;
-        width: 90%;
-        margin-top: 2%;
+        flex-direction: column;
     }
     .footerUs{
         display: flex;
-        width: 30%;
-        justify-content: space-around;
-    }
-    hr{
-        width: 80%;
-    }
-    .anchorsFooter{
-        display: flex;
-        flex-direction: column;
-        align-self: center;
+        align-items: center;
+        width: 75%;
     }
     .footerMedia{
         display: flex;
         flex-direction: row;
         height: 100%;
-        width: 50%;
+        width: 70%;
         justify-content: space-around;
     }
-    .footerMediaImg{
-        justify-self: center;
-        width: 100%;
-        height: auto;
-        filter: invert(100%);
-        -webkit-filter: invert(100%);
-    }
-    
     .prueba{
-        height: auto;
-        width: 5%;
+        width: 8%;
     }
-    
 }
+
+@media (max-width: 480px){
+    .footerMedia{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .prueba{
+        width: 7%;
+    }
+}
+
 
