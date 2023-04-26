@@ -39,6 +39,8 @@ console.log(container)
 let slides = document.getElementsByClassName("partnersImg")[0].getElementsByTagName("img");
 console.log(slides)
 
+console.log("SLIDE: ",slideIndex)
+
 
 let buttonRight = document.getElementsByClassName("right")[0]
 let buttonLeft = document.getElementsByClassName("left")[0]
@@ -49,22 +51,40 @@ buttonLeft.addEventListener("click", prevSlide)
 function nextSlide(){
   if(slideIndex >= slides.length - 1){
     slideIndex = slides.length - 1
-    console.log("nel perro")
+    console.log("SLIDE: ",slideIndex)
+    console.log("borde derecha")
     return
-  }
-  else{
+  } else {
     container.style.transform = `translateX(${-100}%)`
+    slides[slideIndex].classList.remove("show")
+    slides[slideIndex].classList.add("hidden")
     slideIndex++
+    slides[slideIndex].classList.add("show")
+    slides[slideIndex].classList.remove("hidden")
+    console.log("SLIDE: ",slideIndex)
   }
 }
 
 function prevSlide(){
-  if(slideIndex < 0){
+  if(slideIndex <= 0){
     slideIndex = 0
-    console.log("nel izquierda perro")
+    console.log("SLIDE: ",slideIndex)
+    console.log("borde izq")
     return
   } else {
-    container.style.transform = `translateX(${-100}%)`
+    container.style.transform = `translateX(${0}%)`
+    slides[slideIndex].classList.remove("show")
+    slides[slideIndex].classList.add("hidden")
     slideIndex--
+    slides[slideIndex].classList.add("show")
+    slides[slideIndex].classList.remove("hidden")
+    console.log("SLIDE: ",slideIndex)
   }
 }
+
+for (let i = 0; i < slides.length; i++) {
+  slides[i].classList.add("hidden")
+}
+
+slides[slideIndex].classList.remove("hidden")
+slides[slideIndex].classList.add("show")
