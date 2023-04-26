@@ -34,7 +34,11 @@
 h3{
     text-align: center;
     font-size: xx-large;
-    margin: 1em;
+}
+.backgroundPartnersText{
+    background-color:  #f5f7fa;
+    width: 150%;
+    font-weight: bolder;
 }
 .partnersImg{
     display: flex;
