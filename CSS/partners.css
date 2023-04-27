@@ -31,7 +31,7 @@
     align-items: center;
     justify-content: center;
 }
-h3{
+.backgroundPartnersText h2{
     text-align: center;
     font-size: xx-large;
 }
@@ -44,6 +44,8 @@ h3{
     width: 58%;
     height: 77%;
     transition: 1s ease;
+    display: flex;
+    justify-content: center;
 }
 
 .imgPartners{
@@ -91,6 +93,11 @@ h3{
         opacity: 0;
         z-index: 0;
     }
+    .backgroundPartnersText{
+        background-color:  #f5f7fa;
+        width: 100vw;
+        font-weight: bolder;
+    }
 
     .partners{
         height: 100%;
@@ -106,6 +113,7 @@ h3{
 @media (max-width: 767px){
     .partners{
         height: 100%;
+        padding-top: 5%;
     }
 
     .hidePartners{
@@ -122,6 +130,15 @@ h3{
 
     .clientesHorizontal{
         display: none;
+    }
+    .backgroundPartnersText{
+        background-color:  #f5f7fa;
+        width: 100vw;
+        font-weight: bolder;
+    }
+    .backgroundPartnersText h2{
+        text-align: center;
+        font-size: 6vw;
     }
 }
 

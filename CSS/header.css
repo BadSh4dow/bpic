@@ -39,45 +39,50 @@ header button{
 
 @media (max-width: 767px){
     .background{
-        height: 100vw;
+        height: 96vw;
+        border-bottom-right-radius: 8vw;
+        border-bottom-left-radius: 8vw;
     }
 
     header{
-        margin-top: 15%;
+        margin-top: 2%;
     }
 
     .imgLogo{
-        width: 50%;
+        width: 60%;
     }
 
     h1{
         text-align: center;
         margin: 0;
-        font-size: 6vw;
+        font-size: 8vw;
+        padding-top: 1%;
     }
     
     header p{
         margin: 0;
         text-align: center;
-        font-size: 4vw;
+        font-size: 4.5vw;
+        padding-top: 4%;
     }
 }
 @media (min-width: 768px) and (max-width: 1199px){
     header{
+        margin-top: 0;
         height: 33vh;
     }
     .imgLogo{
-        width: 35%;
+        width: 40%;
     }
     h1{
         text-align: center;
         margin: 0;
-        font-size: 5.5vw;
+        font-size: 7vw;
     }
     header p{
         margin: 0;
         text-align: center;
-        font-size: 3vw;
+        font-size: 4vw;
     }
 
 }

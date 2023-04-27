@@ -47,8 +47,18 @@
     
 }
 @media (min-width: 768px) and (max-width: 1199px) {
-    .navBar{
-        font-size: x-large;
+    .link{
+        display: inline-block;
+        position: relative;
+        font-size: 3vw;
     }
+}
+@media screen and (max-width: 768px){
+    .link{
+        display: inline-block;
+        position: relative;
+        font-size: 4vw;
+    }
+
 }
 

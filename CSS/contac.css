@@ -75,6 +75,9 @@ img{
 }
 
 @media (max-width: 767px){
+    .backgroundContact h2{
+        font-size: 6vw;
+    }
     .hide{
         display: none;
         z-index: 0;

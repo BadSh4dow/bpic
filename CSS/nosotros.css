@@ -75,7 +75,12 @@
         border-radius: 20px;
         margin-bottom: 2%;
     }
-
+    .tituloPersona{
+        font-size: 4vw;
+    }
+    .personaText{
+        font-size: 3vw;
+    }
 }
 
 @media (max-width: 767px){
@@ -99,7 +104,17 @@
         width: 25vw;
         height: 50%;
     }
+    .text h2{
+        text-align: center;
+        font-size: 6vw;
+    }
     .text p{
-        font-size: large;
+        font-size: 4vw;
+    }
+    .tituloPersona{
+        font-size: 6vw;
+    }
+    .personaText{
+        font-size: 4vw;
     }
 }
