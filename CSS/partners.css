@@ -37,11 +37,11 @@
 }
 .backgroundPartnersText{
     background-color:  #f5f7fa;
-    width: 150%;
+    width: 99vw;
     font-weight: bolder;
 }
 .partnersImg{
-    width: 58%;
+    width: 75%;
     height: 77%;
     transition: 1s ease;
     display: flex;
@@ -52,7 +52,7 @@
     margin: 0;
     position: absolute;
     height: 87%;
-    width: 60%;
+    width: 80%;
 }
 .show{
     opacity: 1;
