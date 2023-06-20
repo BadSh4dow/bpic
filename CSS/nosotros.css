@@ -43,6 +43,37 @@
     color: white;
 }
 
+.persona:before{
+    width: 99%;
+    height: 99%;
+    content: "";
+    box-sizing: border-box;
+    border-top: 4px solid white;
+    border-right: 4px solid white;
+    border-left: 4px solid white;
+    transform: scaleX(0);
+    transition: transform 0.2s ease-out;
+    padding: 2% 0% 2% 0%;
+}
+.persona:hover:before{
+    transform: scaleX(1);
+}
+.persona:after{
+    width: 99%;
+    height: 99%;
+    content: "";
+    box-sizing: border-box;
+    border-bottom: 4px solid white;
+    border-right: 4px solid white;
+    border-left: 4px solid white;
+    transform: scaleX(0);
+    transition: transform 0.2s ease-out;
+    padding: 2% 0% 2% 0%;
+}
+.persona:hover:after{
+    transform: scaleX(1);
+}
+
 .tituloPersona{
     font-weight: bold;
     font-size: 1.5em;

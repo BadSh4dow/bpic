@@ -1,7 +1,7 @@
 .partners{
     background-color: white;
     width: 70%;
-    height: 30vh;
+    height: 35vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -42,7 +42,7 @@
 }
 .partnersImg{
     width: 75%;
-    height: 77%;
+    height: 95%;
     transition: 1s ease;
     display: flex;
     justify-content: center;
@@ -52,7 +52,7 @@
 .imgPartners{
     margin: 0;
     position: absolute;
-    height: 87%;
+    height: 95%;
     width: 80%;
 }
 .show{
